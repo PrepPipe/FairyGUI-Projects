@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1100,223">
+  <displayList>
+    <graph id="n3_m7yc" name="bg" xy="0,221" size="1100,2" type="rect" lineSize="0" fillColor="#ff999999"/>
+    <text id="n1_bmp5" name="who" xy="0,0" size="333,54" font="ui://r4wy0bsrulufo" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#666666" shadowOffset="3,3" text="Name"/>
+    <text id="n2_bmp5" name="what" xy="23,54" size="1058,169" font="ui://r4wy0bsrulufo" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#8e4fd0" shadowOffset="3,3" text="the quick brown fox jumps over the lazy dog&#xA;the quick brown fox jumps over the lazy dog&#xA;the quick brown fox jumps over the lazy dog"/>
+  </displayList>
+  <customProperty target="who" propertyId="0"/>
+  <customProperty target="what" propertyId="0"/>
+</component>

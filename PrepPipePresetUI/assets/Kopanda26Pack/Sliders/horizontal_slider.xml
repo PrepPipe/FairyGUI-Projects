@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="540,3" extention="Slider">
+  <displayList>
+    <image id="n0_ndic" name="n0" src="ndic1p" fileName="Images/slider/horizontal_bar_base.png" xy="0,0"/>
+    <image id="n1_ndic" name="bar" src="ndic1o" fileName="Images/slider/horizontal_bar_active.png" xy="0,0"/>
+    <component id="n2_ndic" name="grip" src="ndic1s" fileName="Sliders/horizontal_slider_grip.xml" xy="516,-22">
+      <relation target="n1_ndic" sidePair="right-right"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="3,540" extention="Slider">
+  <displayList>
+    <image id="n0_ll1l" name="n0" src="ll1l21" fileName="Images/slider/vertical_bar_base .png" xy="0,0" size="3,540">
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_ll1l" name="bar_v" src="ll1l20" fileName="Images/slider/vertical_bar_active.png" xy="0,0"/>
+    <component id="n2_ll1l" name="grip" src="ll1l24" fileName="Sliders/vertical_slider_grip.xml" xy="-23,516">
+      <relation target="n1_ll1l" sidePair="bottom-bottom"/>
+    </component>
+  </displayList>
+  <Slider/>
+</component>

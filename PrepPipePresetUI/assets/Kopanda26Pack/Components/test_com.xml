@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="480,480" overflow="scroll" scroll="both" scrollBarFlags="128">
+  <displayList>
+    <text id="n0_ryke" name="n0" xy="124,144" size="422,104" font="ui://r4wy0bsrulufo" fontSize="80" text="test testtest"/>
+    <graph id="n1_ryke" name="n1" xy="121,292" size="456,346" type="rect"/>
+  </displayList>
+</component>

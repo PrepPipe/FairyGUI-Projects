@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="512,512" designImage="ui://r4wy0bsrktou4o">
+  <displayList>
+    <graph id="n1_ktou" name="n1" xy="0,0" size="512,512" type="eclipse" lineSize="0" fillColor="#fff2f2f2"/>
+    <graph id="n3_ktou" name="n3" xy="75,75" size="397,397" aspect="true" type="eclipse" lineSize="0" fillColor="#ff75ff88"/>
+    <graph id="n2_ktou" name="n2" xy="51,51" size="409,409" aspect="true" type="eclipse" lineSize="12" lineColor="#ff0ed1f5" fillColor="#00f2f2f2"/>
+    <graph id="n4_ktou" name="n4" xy="138,138" size="236,236" aspect="true" type="regular_polygon" lineSize="23" lineColor="#ffe8b94c" sides="3"/>
+  </displayList>
+</component>

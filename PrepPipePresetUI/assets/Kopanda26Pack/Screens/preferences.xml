@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <controller name="tab_controller" pages="0,audio,1,text,2,screen" selected="0"/>
+  <displayList>
+    <image id="n0_ndic" name="bg" src="uluf1" fileName="Images/background/universal_background.png" xy="0,0"/>
+    <image id="n2_ndic" name="n2" src="ulufn" fileName="Images/background/label_bg.png" xy="0,40"/>
+    <image id="n1_ndic" name="config_label" src="ndic11" fileName="Images/preferences/preferences_label.png" xy="31,35"/>
+    <image id="n3_ndic" name="panel_bg" src="ndic12" fileName="Images/preferences/preferences_panel.png" xy="223,299"/>
+    <component id="n4_ndic" name="sound_tab" src="ndic1c" fileName="Buttons/preferences_tab_button/audio_tab_button.xml" xy="222,240">
+      <Button checked="true" controller="tab_controller" page="0"/>
+    </component>
+    <component id="n5_ndic" name="text_tab" src="ndic1d" fileName="Buttons/preferences_tab_button/text_tab_button.xml" xy="595,240">
+      <Button controller="tab_controller" page="1"/>
+    </component>
+    <component id="n6_ndic" name="screen_tab" src="ndic1e" fileName="Buttons/preferences_tab_button/screen_tab_button.xml" xy="967,240">
+      <Button controller="tab_controller" page="2"/>
+    </component>
+    <image id="n8_ndic" name="main_volume_label" src="ndic1j" fileName="Images/preferences/main_volume_text.png" xy="348,411">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n9_ndic" name="music_volume_label" src="ndic1m" fileName="Images/preferences/music_volume_text.png" xy="382,530">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n10_ndic" name="sound_volume_label" src="ndic1n" fileName="Images/preferences/sound_volume_text.png" xy="420,650">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n12_ndic" name="n12" src="ndic1l" fileName="Images/preferences/min_volume_icon.png" xy="678,420">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n11_ndic" name="main_volume_slider" src="ndic1t" fileName="Sliders/horizontal_slider.xml" xy="739,426" customData="Preference(&apos;main volume&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n13_ndic" name="n13" src="ndic1k" fileName="Images/preferences/max_volume_icon.png" xy="1311,419">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n14_ndic" name="n14" src="ndic1l" fileName="Images/preferences/min_volume_icon.png" xy="678,540">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n15_ndic" name="music_volume_slider" src="ndic1t" fileName="Sliders/horizontal_slider.xml" xy="739,546" customData="Preference(&apos;music volume&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <image id="n16_ndic" name="n16" src="ndic1k" fileName="Images/preferences/max_volume_icon.png" xy="1311,539">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n17_ndic" name="n17" src="ndic1l" fileName="Images/preferences/min_volume_icon.png" xy="678,660">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n18_ndic" name="sound_volume_slider" src="ndic1t" fileName="Sliders/horizontal_slider.xml" xy="739,666" customData="Preference(&apos;sound volume&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+      <Slider value="43" max="100"/>
+    </component>
+    <image id="n19_ndic" name="n19" src="ndic1k" fileName="Images/preferences/max_volume_icon.png" xy="1311,659">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n20_e28t" name="back_button" src="e28t2j" fileName="Buttons/universal_button/back_button.xml" xy="1800,0" customData="Return()"/>
+    <image id="n21_u8sl" name="n21" src="u8sl3p" fileName="Images/preferences/mute_main_label.png" xy="1455,399">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n22_u8sl" name="n22" src="u8sl3t" fileName="Images/preferences/mute_music_label.png" xy="1455,529">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <image id="n23_u8sl" name="n23" src="u8sl3u" fileName="Images/preferences/mute_sound_label.png" xy="1455,659">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </image>
+    <component id="n24_u8sl" name="mute_main_button" src="u8sl3v" fileName="Buttons/universal_button/check_button.xml" xy="1386,382" customData="ToggleMute(&apos;main&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </component>
+    <component id="n25_u8sl" name="mute_music_button" src="u8sl3v" fileName="Buttons/universal_button/check_button.xml" xy="1386,512" customData="ToggleMute(&apos;music&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </component>
+    <component id="n26_u8sl" name="mute_sound_button" src="u8sl3v" fileName="Buttons/universal_button/check_button.xml" xy="1386,642" customData="ToggleMute(&apos;sfx&apos;)">
+      <gearDisplay controller="tab_controller" pages="0"/>
+    </component>
+    <image id="n27_u8sl" name="n27" src="u8sl3x" fileName="Images/preferences/auto_text_speed_text.png" xy="327,530">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n28_u8sl" name="n28" src="u8sl42" fileName="Images/preferences/text_speed_text.png" xy="424,411">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n29_u8sl" name="n29" src="u8sl43" fileName="Images/preferences/unread_skip_text.png" xy="318,651">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n30_u8sl" name="n30" src="u8sl3y" fileName="Images/preferences/fast_text_speed.png" xy="1322,423">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n31_u8sl" name="n31" src="u8sl41" fileName="Images/preferences/slow_text_speed.png" xy="680,422">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n32_u8sl" name="n32" src="u8sl3y" fileName="Images/preferences/fast_text_speed.png" xy="1322,543">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n33_u8sl" name="n33" src="u8sl41" fileName="Images/preferences/slow_text_speed.png" xy="680,542">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n34_u8sl" name="n34" src="u8sl3z" fileName="Images/preferences/skip_off_text.png" xy="796,657">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <image id="n35_u8sl" name="n35" src="u8sl40" fileName="Images/preferences/skip_on_text.png" xy="1072,657">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </image>
+    <component id="n36_u8sl" name="text_speed_slider" src="ndic1t" fileName="Sliders/horizontal_slider.xml" xy="739,426" customData="Preference(&quot;text speed&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n37_u8sl" name="auto_text_speed_slider" src="ndic1t" fileName="Sliders/horizontal_slider.xml" xy="739,545" customData="Preference(&quot;auto-forward time&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+      <Slider value="50" max="100"/>
+    </component>
+    <component id="n38_u8sl" name="unread_skip_off_button" src="u8sl3v" fileName="Buttons/universal_button/check_button.xml" xy="738,641" customData="Preference(&quot;skip&quot;, &quot;seen&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </component>
+    <component id="n40_u8sl" name="unread_skip_on_button" src="u8sl3v" fileName="Buttons/universal_button/check_button.xml" xy="1014,641" customData="Preference(&quot;skip&quot;, &quot;all&quot;)">
+      <gearDisplay controller="tab_controller" pages="1"/>
+    </component>
+    <image id="n41_u8sl" name="n41" src="u8sl46" fileName="Images/preferences/screen_size_text.png" xy="407,411">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </image>
+    <image id="n42_u8sl" name="n42" src="u8sl45" fileName="Images/preferences/full_screen_text.png" xy="795,417">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </image>
+    <image id="n43_u8sl" name="n43" src="u8sl47" fileName="Images/preferences/windowed_text.png" xy="1069,417">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </image>
+    <component id="n44_u8sl" name="full_screen_button" src="u8sl3v" fileName="Buttons/universal_button/check_button.xml" xy="738,402" customData="Preference(&quot;display&quot;, &quot;fullscreen&quot;)">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </component>
+    <component id="n45_u8sl" name="windowed_button" src="u8sl3v" fileName="Buttons/universal_button/check_button.xml" xy="1014,402" customData="Preference(&quot;display&quot;, &quot;window&quot;)">
+      <gearDisplay controller="tab_controller" pages="2"/>
+    </component>
+  </displayList>
+</component>

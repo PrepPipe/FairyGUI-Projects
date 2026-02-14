@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_tfp8" name="bg" src="tfp82" fileName="Images/main_menu_background.jpg" xy="0,0"/>
+    <component id="n1_x3ke" name="main_menu_button_1" src="x3ke3" fileName="Components/main_menu_button.xml" xy="177,833" customData="Start()">
+      <Button title="开始游戏"/>
+    </component>
+    <component id="n2_x3ke" name="main_menu_button_2" src="x3ke3" fileName="Components/main_menu_button.xml" xy="442,833" customData="ShowMenu(&quot;load&quot;)">
+      <Button title="读取游戏"/>
+    </component>
+    <component id="n3_x3ke" name="main_menu_button_3" src="x3ke3" fileName="Components/main_menu_button.xml" xy="707,833" customData="ShowMenu(&quot;preferences&quot;)">
+      <Button title="设置"/>
+    </component>
+    <component id="n4_x3ke" name="main_menu_button_4" src="x3ke3" fileName="Components/main_menu_button.xml" xy="972,833" customData="ShowMenu(&quot;about&quot;)">
+      <Button title="关于"/>
+    </component>
+    <component id="n5_x3ke" name="main_menu_button_5" src="x3ke3" fileName="Components/main_menu_button.xml" xy="1237,833" customData="ShowMenu(&quot;help&quot;)">
+      <Button title="帮助"/>
+    </component>
+    <component id="n6_x3ke" name="main_menu_button_6" src="x3ke3" fileName="Components/main_menu_button.xml" xy="1502,833" customData="Quit()">
+      <Button title="退出"/>
+    </component>
+    <graph id="n9_jvk7" name="n9" xy="500,239" size="867,244" skew="-24,0" type="rect" lineSize="0" fillColor="#ff66ffcc"/>
+    <graph id="n10_jvk7" name="n10" xy="475,222" size="867,244" skew="-24,0" type="rect" lineSize="0" fillColor="#ff3399cc"/>
+    <text id="n8_x3ke" name="game_title" xy="535,207" size="850,254" font="ui://npao0cffx3ke4" fontSize="200" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#666666" strokeSize="2" shadowColor="#000000" shadowOffset="5,5" text="游戏名称"/>
+  </displayList>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_uluf" name="bg" src="uluf1" fileName="Images/background/universal_background.png" xy="0,0"/>
+    <image id="n7_uluf" name="label_bg" src="ulufn" fileName="Images/background/label_bg.png" xy="0,66"/>
+    <component id="n1_uluf" name="n1" src="ulufd" fileName="Buttons/main_menu_button/main_menu_button_new.xml" xy="1080,218" customData="Start()"/>
+    <component id="n2_uluf" name="n2" src="ulufi" fileName="Buttons/main_menu_button/main_menu_button_load.xml" xy="1080,357" customData="ShowMenu(&quot;load&quot;)"/>
+    <component id="n3_uluf" name="n3" src="ulufj" fileName="Buttons/main_menu_button/main_menu_button_config.xml" xy="1080,496" customData="ShowMenu(&quot;preferences&quot;)"/>
+    <component id="n4_uluf" name="n4" src="ulufk" fileName="Buttons/main_menu_button/main_menu_button_gallery.xml" xy="1080,635" customData="ShowMenu(&quot;gallery&quot;)"/>
+    <component id="n10_lg8i" name="n10" src="lg8i51" fileName="Buttons/main_menu_button/main_menu_button_musicroom.xml" xy="1080,774" customData="ShowMenu(&quot;music_room&quot;)"/>
+    <component id="n5_uluf" name="n5" src="ulufl" fileName="Buttons/main_menu_button/main_menu_button_quit.xml" xy="1080,913" customData="Quit(confirm=True)"/>
+    <text id="n6_uluf" name="n6" xy="123,1" size="727,179" filter="color" filterData="0,0,0,0" font="ui://r4wy0bsrulufo" fontSize="140" color="#ffffff" vAlign="middle" leading="0" autoSize="none" italic="true" shadowColor="#9933cc" shadowOffset="3,3" text="Game Title"/>
+    <image id="n9_z1bv" name="n9" src="ndicp" fileName="Images/character/Character01.png" xy="210,169" alpha="0.45" color="#000000"/>
+    <image id="n8_ndic" name="n8" src="ndicp" fileName="Images/character/Character01.png" xy="190,171"/>
+  </displayList>
+</component>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewvv" name="bg" src="uluf1" fileName="Images/background/universal_background.png" xy="0,0"/>
+    <image id="n3_cwkh" name="label_bg" src="ulufn" fileName="Images/background/label_bg.png" xy="0,66"/>
+    <image id="n2_cwkh" name="history_title" src="bmp53h" fileName="Images/history/backlog_label.png" xy="77,59"/>
+    <image id="n6_bmp5" name="history_pannel" src="bmp53i" fileName="Images/history/pannel.png" xy="366,255"/>
+    <list id="n7_bmp5" name="history_list" xy="420,286" size="1100,560" overflow="scroll" scrollBarRes="ui://r4wy0bsrg0f855," lineGap="10" defaultItem="ui://r4wy0bsrbmp53k" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_ewvv" name="back_button" src="e28t2j" fileName="Buttons/universal_button/back_button.xml" xy="1800,0"/>
+  </displayList>
+</component>

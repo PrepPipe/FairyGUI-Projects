@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewvv" name="bg" src="ewvv2o" fileName="Images/background/game_menu_background.png" xy="0,0"/>
+    <component id="n1_ewvv" name="back_button" src="ewvv35" fileName="Buttons/game_menu/menu_back_button.xml" xy="750,734" customData="MainMenu()"/>
+    <component id="n2_ewvv" name="close_button" src="ewvv36" fileName="Buttons/game_menu/menu_close_button.xml" xy="1265,215" customData="Return()"/>
+    <component id="n3_ewvv" name="n3" src="ewvv37" fileName="Buttons/game_menu/menu_config_button.xml" xy="750,588" customData="ShowMenu(&quot;preferences&quot;)"/>
+    <component id="n4_ewvv" name="n4" src="ewvv38" fileName="Buttons/game_menu/menu_load_button.xml" xy="750,438" customData="ShowMenu(&quot;load&quot;)"/>
+    <component id="n5_ewvv" name="n5" src="ewvv39" fileName="Buttons/game_menu/menu_save_button.xml" xy="750,286" customData="ShowMenu(&quot;save&quot;)"/>
+  </displayList>
+</component>

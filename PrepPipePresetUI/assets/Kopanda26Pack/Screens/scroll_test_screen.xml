@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="600,800" overflow="scroll" scroll="both" scrollBarFlags="128" scrollBarRes="ui://r4wy0bsrg0f855,ui://r4wy0bsrc7tw59">
+  <displayList>
+    <image id="n0_mutv" name="test_bg" src="m7yc4i" fileName="bg.png" xy="0,0"/>
+  </displayList>
+</component>

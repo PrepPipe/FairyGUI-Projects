@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <text id="n1_e28t" name="caption" xy="0,185" size="1920,84" font="ui://r4wy0bsrulufo" fontSize="53" align="center" vAlign="middle" autoSize="none" text="标题"/>
+    <list id="n3_e28t" name="choice_list" xy="480,331" size="960,333" overflow="scroll" lineGap="66" defaultItem="ui://r4wy0bsre28t2f">
+      <item/>
+      <item/>
+    </list>
+  </displayList>
+</component>

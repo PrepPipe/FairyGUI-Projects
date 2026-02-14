@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="240,120" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver" selected="0"/>
+  <displayList>
+    <graph id="n0_x3ke" name="n0" xy="0,0" size="240,120" touchable="false" type="rect" lineSize="3" lineColor="#ff66ffcc" fillColor="#ff3399cc" corner="25">
+      <gearDisplay controller="button" pages="0"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n5_lr9u" name="n1" xy="0,0" size="240,120" touchable="false" type="rect" lineSize="3" lineColor="#ff66ffcc" fillColor="#ffffff33" corner="25">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <graph id="n4_lr9u" name="n2" xy="0,0" size="240,120" touchable="false" type="rect" lineSize="3" lineColor="#ff66ffcc" fillColor="#ff336acc" corner="25">
+      <gearDisplay controller="button" pages="2,3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </graph>
+    <text id="n3_x3ke" name="title" xy="0,0" size="240,120" font="ui://npao0cffx3ke4" fontSize="48" color="#ffffff" align="center" vAlign="middle" autoSize="none" strokeColor="#999999" strokeSize="2" shadowColor="#000000" shadowOffset="1,1" singleLine="true" text="按钮标题">
+      <relation target="" sidePair="width-width,height-height"/>
+    </text>
+  </displayList>
+  <Button/>
+</component>

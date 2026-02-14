@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="r4wy0bsr">
+  <resources>
+    <component id="uluf0" name="main_menu.xml" path="/Screens/" exported="true"/>
+    <image id="uluf1" name="universal_background.png" path="/Images/background/"/>
+    <image id="uluf2" name="main_button_config_normal.png" path="/Images/main_menu_button/"/>
+    <image id="uluf3" name="main_button_load_normal.png" path="/Images/main_menu_button/"/>
+    <image id="uluf4" name="main_button_new_normal.png" path="/Images/main_menu_button/"/>
+    <image id="uluf5" name="main_button_quit_normal.png" path="/Images/main_menu_button/"/>
+    <image id="uluf6" name="main_button_gallery_normal.png" path="/Images/main_menu_button/"/>
+    <image id="uluf7" name="main_button_quit_hover.png" path="/Images/main_menu_button/"/>
+    <image id="uluf8" name="main_button_config_hover.png" path="/Images/main_menu_button/"/>
+    <image id="uluf9" name="main_button_gallery_hover.png" path="/Images/main_menu_button/"/>
+    <image id="ulufa" name="main_button_load_hover.png" path="/Images/main_menu_button/"/>
+    <image id="ulufb" name="main_button_new_down.png" path="/Images/main_menu_button/"/>
+    <image id="ulufc" name="main_button_new_hover.png" path="/Images/main_menu_button/"/>
+    <component id="ulufd" name="main_menu_button_new.xml" path="/Buttons/main_menu_button/"/>
+    <image id="ulufe" name="main_button_config_down.png" path="/Images/main_menu_button/"/>
+    <image id="uluff" name="main_button_gallery_down.png" path="/Images/main_menu_button/"/>
+    <image id="ulufg" name="main_button_load_down.png" path="/Images/main_menu_button/"/>
+    <image id="ulufh" name="main_button_quit_down.png" path="/Images/main_menu_button/"/>
+    <component id="ulufi" name="main_menu_button_load.xml" path="/Buttons/main_menu_button/"/>
+    <component id="ulufj" name="main_menu_button_config.xml" path="/Buttons/main_menu_button/"/>
+    <component id="ulufk" name="main_menu_button_gallery.xml" path="/Buttons/main_menu_button/"/>
+    <component id="ulufl" name="main_menu_button_quit.xml" path="/Buttons/main_menu_button/"/>
+    <font id="ulufm" name="xsxybxsjt.ttf" path="/Fonts/" renderMode="" samplePointSize="16"/>
+    <image id="ulufn" name="label_bg.png" path="/Images/background/"/>
+    <font id="ulufo" name="SourceHanSansLite.ttf" path="/Fonts/" renderMode="" samplePointSize="16"/>
+    <image id="ndicp" name="Character01.png" path="/Images/character/" disableTrim="true"/>
+    <image id="ndicq" name="confirm_background.png" path="/Images/background/"/>
+    <component id="ndicr" name="confirm.xml" path="/Screens/" exported="true"/>
+    <image id="ndics" name="yes_button_down.png" path="/Images/confirm_button/"/>
+    <image id="ndict" name="yes_button_hover.png" path="/Images/confirm_button/"/>
+    <image id="ndicu" name="yes_button_normal.png" path="/Images/confirm_button/"/>
+    <component id="ndicv" name="yes_button.xml" path="/Buttons/confirm_button/"/>
+    <image id="ndicw" name="no_button_down.png" path="/Images/confirm_button/"/>
+    <image id="ndicx" name="no_button_hover.png" path="/Images/confirm_button/"/>
+    <image id="ndicy" name="no_button_normal.png" path="/Images/confirm_button/"/>
+    <component id="ndicz" name="no_button.xml" path="/Buttons/confirm_button/"/>
+    <component id="ndic10" name="preferences.xml" path="/Screens/" exported="true"/>
+    <image id="ndic11" name="preferences_label.png" path="/Images/preferences/"/>
+    <image id="ndic12" name="preferences_panel.png" path="/Images/preferences/"/>
+    <image id="ndic13" name="tab_audio_down.png" path="/Images/preferences/"/>
+    <image id="ndic14" name="tab_audio_hover.png" path="/Images/preferences/"/>
+    <image id="ndic15" name="tab_audio_normal.png" path="/Images/preferences/"/>
+    <image id="ndic16" name="tab_screen_down.png" path="/Images/preferences/"/>
+    <image id="ndic17" name="tab_screen_hover.png" path="/Images/preferences/"/>
+    <image id="ndic18" name="tab_screen_normal.png" path="/Images/preferences/"/>
+    <image id="ndic19" name="tab_text_down.png" path="/Images/preferences/"/>
+    <image id="ndic1a" name="tab_text_hover.png" path="/Images/preferences/"/>
+    <image id="ndic1b" name="tab_text_normal.png" path="/Images/preferences/"/>
+    <component id="ndic1c" name="audio_tab_button.xml" path="/Buttons/preferences_tab_button/"/>
+    <component id="ndic1d" name="text_tab_button.xml" path="/Buttons/preferences_tab_button/"/>
+    <component id="ndic1e" name="screen_tab_button.xml" path="/Buttons/preferences_tab_button/"/>
+    <image id="ndic1f" name="close_button_down.png" path="/Images/universal_button/"/>
+    <image id="ndic1g" name="close_button_hover.png" path="/Images/universal_button/"/>
+    <image id="ndic1h" name="close_button_normal.png" path="/Images/universal_button/"/>
+    <component id="ndic1i" name="close_button.xml" path="/Buttons/universal_button/"/>
+    <image id="ndic1j" name="main_volume_text.png" path="/Images/preferences/"/>
+    <image id="ndic1k" name="max_volume_icon.png" path="/Images/preferences/"/>
+    <image id="ndic1l" name="min_volume_icon.png" path="/Images/preferences/"/>
+    <image id="ndic1m" name="music_volume_text.png" path="/Images/preferences/"/>
+    <image id="ndic1n" name="sound_volume_text.png" path="/Images/preferences/"/>
+    <image id="ndic1o" name="horizontal_bar_active.png" path="/Images/slider/"/>
+    <image id="ndic1p" name="horizontal_bar_base.png" path="/Images/slider/"/>
+    <image id="ndic1q" name="horizontal_thumb_active.png" path="/Images/slider/"/>
+    <image id="ndic1r" name="horizontal_thumb_base.png" path="/Images/slider/"/>
+    <component id="ndic1s" name="horizontal_slider_grip.xml" path="/Sliders/"/>
+    <component id="ndic1t" name="horizontal_slider.xml" path="/Sliders/" exported="true"/>
+    <image id="ndic1u" name="mute_button_active.png" path="/Images/preferences/"/>
+    <image id="ndic1v" name="mute_button_hover.png" path="/Images/preferences/"/>
+    <image id="ndic1w" name="mute_button_normal.png" path="/Images/preferences/"/>
+    <image id="ll1l1x" name="mute_main_text.png" path="/Images/preferences/"/>
+    <image id="ll1l1y" name="mute_music_text.png" path="/Images/preferences/"/>
+    <image id="ll1l1z" name="mute_sound_text.png" path="/Images/preferences/"/>
+    <image id="ll1l20" name="vertical_bar_active.png" path="/Images/slider/"/>
+    <image id="ll1l21" name="vertical_bar_base .png" path="/Images/slider/"/>
+    <component id="ll1l24" name="vertical_slider_grip.xml" path="/Sliders/"/>
+    <component id="ll1l25" name="vertical_slider.xml" path="/Sliders/"/>
+    <component id="ll1l28" name="Slider1_grip.xml" path="/Sliders/"/>
+    <component id="ll1l29" name="Slider1.xml" path="/Sliders/" exported="true"/>
+    <component id="e28t2a" name="choice.xml" path="/Screens/" exported="true"/>
+    <image id="e28t2b" name="choice_button_hover.png" path="/Images/choice_button/"/>
+    <image id="e28t2c" name="choice_button_normal.png" path="/Images/choice_button/"/>
+    <image id="e28t2d" name="choice_button_selected.png" path="/Images/choice_button/"/>
+    <component id="e28t2f" name="choice_button.xml" path="/Buttons/choice_button/"/>
+    <image id="e28t2g" name="button_back_down.png" path="/Images/universal_button/"/>
+    <image id="e28t2h" name="button_back_hover.png" path="/Images/universal_button/"/>
+    <image id="e28t2i" name="button_back_normal.png" path="/Images/universal_button/"/>
+    <component id="e28t2j" name="back_button.xml" path="/Buttons/universal_button/"/>
+    <image id="e28t2k" name="text_box.png" path="/Images/background/"/>
+    <image id="e28t2l" name="name_tag.png" path="/Images/background/"/>
+    <component id="e28t2m" name="say.xml" path="/Screens/" exported="true"/>
+    <image id="e28t2n" name="system_button_bg.png" path="/Images/background/"/>
+    <image id="ewvv2o" name="game_menu_background.png" path="/Images/background/" disableTrim="true"/>
+    <component id="ewvv2p" name="game_menu.xml" path="/Screens/" exported="true"/>
+    <image id="ewvv2q" name="menu_back_button_down.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2r" name="menu_back_button_hover.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2s" name="menu_back_button_normal.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2t" name="menu_close_button_down.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2u" name="menu_close_button_hover.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2v" name="menu_close_button_normal.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2w" name="menu_config_button_down.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2x" name="menu_config_button_hover.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2y" name="menu_config_button_normal.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv2z" name="menu_load_button_down.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv30" name="menu_load_button_hover.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv31" name="menu_load_button_normal.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv32" name="menu_save_button_down.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv33" name="menu_save_button_hover.png" path="/Images/game_menu_button/"/>
+    <image id="ewvv34" name="menu_save_button_normal.png" path="/Images/game_menu_button/"/>
+    <component id="ewvv35" name="menu_back_button.xml" path="/Buttons/game_menu/"/>
+    <component id="ewvv36" name="menu_close_button.xml" path="/Buttons/game_menu/"/>
+    <component id="ewvv37" name="menu_config_button.xml" path="/Buttons/game_menu/"/>
+    <component id="ewvv38" name="menu_load_button.xml" path="/Buttons/game_menu/"/>
+    <component id="ewvv39" name="menu_save_button.xml" path="/Buttons/game_menu/"/>
+    <component id="ewvv3a" name="save.xml" path="/Screens/" exported="true"/>
+    <component id="ewvv3b" name="load.xml" path="/Screens/" exported="true"/>
+    <image id="cwkh3c" name="load_title.png" path="/Images/save_load_menu/"/>
+    <image id="cwkh3d" name="save_title.png" path="/Images/save_load_menu/"/>
+    <image id="cwkh3e" name="save_slot_hover.png" path="/Images/save_load_menu/"/>
+    <image id="cwkh3f" name="save_slot_normal.png" path="/Images/save_load_menu/"/>
+    <component id="cwkh3g" name="save_slot_button.xml" path="/Buttons/save_load/"/>
+    <image id="bmp53h" name="backlog_label.png" path="/Images/history/"/>
+    <image id="bmp53i" name="pannel.png" path="/Images/history/" scale="9grid" scale9grid="17,17,1146,576"/>
+    <component id="bmp53j" name="history.xml" path="/Screens/" exported="true"/>
+    <component id="bmp53k" name="history_item.xml" path="/Components/"/>
+    <image id="bmp53l" name="gallery_button.png" path="/Images/gallery/"/>
+    <image id="bmp53m" name="gallery_label.png" path="/Images/gallery/"/>
+    <component id="bmp53n" name="gallery.xml" path="/Screens/" exported="true"/>
+    <component id="bmp53o" name="gallery_button.xml" path="/Buttons/gallery_button/"/>
+    <image id="u8sl3p" name="mute_main_label.png" path="/Images/preferences/"/>
+    <image id="u8sl3q" name="check_button_down.png" path="/Images/preferences/"/>
+    <image id="u8sl3r" name="check_button_hover.png" path="/Images/preferences/"/>
+    <image id="u8sl3s" name="check_button_normal.png" path="/Images/preferences/"/>
+    <image id="u8sl3t" name="mute_music_label.png" path="/Images/preferences/"/>
+    <image id="u8sl3u" name="mute_sound_label.png" path="/Images/preferences/"/>
+    <component id="u8sl3v" name="check_button.xml" path="/Buttons/universal_button/"/>
+    <image id="u8sl3w" name="config_text_layout.png" path="/Designs/"/>
+    <image id="u8sl3x" name="auto_text_speed_text.png" path="/Images/preferences/"/>
+    <image id="u8sl3y" name="fast_text_speed.png" path="/Images/preferences/"/>
+    <image id="u8sl3z" name="skip_off_text.png" path="/Images/preferences/"/>
+    <image id="u8sl40" name="skip_on_text.png" path="/Images/preferences/"/>
+    <image id="u8sl41" name="slow_text_speed.png" path="/Images/preferences/"/>
+    <image id="u8sl42" name="text_speed_text.png" path="/Images/preferences/"/>
+    <image id="u8sl43" name="unread_skip_text.png" path="/Images/preferences/"/>
+    <image id="u8sl44" name="config_screen_layout.png" path="/Designs/"/>
+    <image id="u8sl45" name="full_screen_text.png" path="/Images/preferences/"/>
+    <image id="u8sl46" name="screen_size_text.png" path="/Images/preferences/"/>
+    <image id="u8sl47" name="windowed_text.png" path="/Images/preferences/"/>
+    <image id="m7yc48" name="config_screen_audio_layout.png" path="/Designs/"/>
+    <image id="m7yc49" name="config_screen_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4a" name="config_screen_text_layout.png" path="/Designs/"/>
+    <image id="m7yc4b" name="confirm_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4c" name="gallery_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4d" name="game_menu_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4e" name="history_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4f" name="load_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4g" name="save_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4h" name="say_screen_layout.png" path="/Designs/"/>
+    <image id="m7yc4i" name="bg.png" path="/"/>
+    <component id="ryke4j" name="credits.xml" path="/Screens/"/>
+    <component id="ryke4k" name="test_com.xml" path="/Components/"/>
+    <component id="ktou4l" name="music_room.xml" path="/Screens/" exported="true"/>
+    <image id="ktou4m" name="play_music_normal.png" path="/Images/musicroom/"/>
+    <component id="ktou4n" name="musicroom_button.xml" path="/Buttons/musicroom_button/"/>
+    <image id="ktou4o" name="播放_爱给网_aigei_com.png" path="/Designs/"/>
+    <component id="ktou4p" name="musicroom_button_comp.xml" path="/Buttons/musicroom_button/"/>
+    <image id="ktou4u" name="play_music_hover.png" path="/Images/musicroom/"/>
+    <image id="ktou4v" name="play_music_selected.png" path="/Images/musicroom/"/>
+    <image id="ktou4w" name="play_music_selected_hover.png" path="/Images/musicroom/"/>
+    <image id="lg8i4x" name="musicroom_label.png" path="/Images/musicroom/"/>
+    <image id="lg8i4y" name="main_button_musicroom_hover.png" path="/Images/main_menu_button/"/>
+    <image id="lg8i4z" name="main_button_musicroom_down.png" path="/Images/main_menu_button/"/>
+    <image id="lg8i50" name="main_button_musicroom_normal.png" path="/Images/main_menu_button/"/>
+    <component id="lg8i51" name="main_menu_button_musicroom.xml" path="/Buttons/main_menu_button/"/>
+    <image id="g0f852" name="vertical_scrollbar_bar.png" path="/Images/scrollbar/"/>
+    <image id="g0f853" name="vertical_scrollbar_thumb.png" path="/Images/scrollbar/"/>
+    <component id="g0f854" name="vertical_scrollbar_grip.xml" path="/ScrollBars/"/>
+    <component id="g0f855" name="vertical_scrollbar.xml" path="/ScrollBars/" exported="true"/>
+    <image id="c7tw56" name="horizontal_scrollbar_bar.png" path="/Images/scrollbar/"/>
+    <image id="c7tw57" name="horizontal_scrollbar_thumb.png" path="/Images/scrollbar/"/>
+    <component id="c7tw58" name="horizontal_scrollbar_grip.xml" path="/ScrollBars/"/>
+    <component id="c7tw59" name="horizontal_scrollbar.xml" path="/ScrollBars/" exported="true"/>
+    <component id="mutv5a" name="scroll_test_screen.xml" path="/Screens/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

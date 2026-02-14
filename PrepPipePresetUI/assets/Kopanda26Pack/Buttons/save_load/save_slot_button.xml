@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1206,192" extention="Button">
+  <controller name="button" pages="0,up,1,down,2,over,3,selectedOver,4,insensitive" selected="0"/>
+  <displayList>
+    <image id="n0_cwkh" name="n0" src="cwkh3f" fileName="Images/save_load_menu/save_slot_normal.png" xy="0,0">
+      <gearDisplay controller="button" pages="0,4"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n1_cwkh" name="n1" src="cwkh3e" fileName="Images/save_load_menu/save_slot_hover.png" xy="0,0">
+      <gearDisplay controller="button" pages="1"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n2_cwkh" name="n2" src="cwkh3e" fileName="Images/save_load_menu/save_slot_hover.png" xy="0,0">
+      <gearDisplay controller="button" pages="2"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <image id="n3_cwkh" name="n3" src="cwkh3e" fileName="Images/save_load_menu/save_slot_hover.png" xy="0,0">
+      <gearDisplay controller="button" pages="3"/>
+      <relation target="" sidePair="width-width,height-height"/>
+    </image>
+    <graph id="n4_cwkh" name="screen_shot" xy="66,30" size="228,123" type="rect" lineSize="0" fillColor="#00000000"/>
+    <loader id="n6_cwkh" name="icon" xy="66,30" size="228,123"/>
+    <text id="n5_cwkh" name="title" xy="335,61" size="458,49" font="ui://r4wy0bsrulufo" fontSize="36" color="#cccccc" autoSize="none" shadowColor="#6633cc" shadowOffset="3,3" autoClearText="true" text="2025-11-12 16:08"/>
+  </displayList>
+  <Button/>
+</component>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_e28t" name="textbox" src="e28t2k" fileName="Images/background/text_box.png" xy="0,834"/>
+    <image id="n2_e28t" name="namebox" src="e28t2l" fileName="Images/background/name_tag.png" xy="0,774"/>
+    <text id="n3_e28t" name="who" xy="178,776" size="333,54" font="ui://r4wy0bsrulufo" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#333333" shadowOffset="3,3" autoClearText="true" text="Name"/>
+    <text id="n4_e28t" name="what" xy="265,850" size="1390,162" font="ui://r4wy0bsrulufo" fontSize="40" color="#cccccc" autoSize="none" shadowColor="#8e4fd0" shadowOffset="3,3" autoClearText="true" text="the quick brown fox jumps over the lazy dog&#xA;the quick brown fox jumps over the lazy dog&#xA;the quick brown fox jumps over the lazy dog"/>
+  </displayList>
+</component>

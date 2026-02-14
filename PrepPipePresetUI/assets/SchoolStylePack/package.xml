@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="npao0cff">
+  <resources>
+    <component id="tfp81" name="main_menu.xml" path="/Screens/" exported="true"/>
+    <image id="tfp82" name="main_menu_background.jpg" path="/Images/"/>
+    <component id="x3ke3" name="main_menu_button.xml" path="/Components/"/>
+    <font id="x3ke4" name="SourceHanSansLite.ttf" path="/Fonts/" renderMode="" samplePointSize="16"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

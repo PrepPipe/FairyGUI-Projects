@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_bmp5" name="bg" src="uluf1" fileName="Images/background/universal_background.png" xy="0,0"/>
+    <image id="n1_bmp5" name="label_bg" src="ulufn" fileName="Images/background/label_bg.png" xy="0,66"/>
+    <image id="n2_bmp5" name="label" src="lg8i4x" fileName="Images/musicroom/musicroom_label.png" xy="77,59"/>
+    <image id="n6_lg8i" name="button_list_panel" src="bmp53i" fileName="Images/history/pannel.png" xy="201,284" size="1530,601"/>
+    <list id="n5_bmp5" name="musicroom_button_list" xy="211,287" size="1500,578" layout="flow_hz" overflow="scroll" scroll="both" scrollBarFlags="128" lineGap="40" lineItemCount="2" defaultItem="ui://r4wy0bsrktou4n">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_bmp5" name="back_button" src="e28t2j" fileName="Buttons/universal_button/back_button.xml" xy="1800,0"/>
+  </displayList>
+</component>

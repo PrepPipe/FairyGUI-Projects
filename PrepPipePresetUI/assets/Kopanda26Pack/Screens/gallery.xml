@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080" scroll="both">
+  <displayList>
+    <image id="n0_bmp5" name="bg" src="uluf1" fileName="Images/background/universal_background.png" xy="0,0"/>
+    <image id="n1_bmp5" name="label_bg" src="ulufn" fileName="Images/background/label_bg.png" xy="0,66"/>
+    <image id="n2_bmp5" name="label" src="bmp53m" fileName="Images/gallery/gallery_label.png" xy="77,59"/>
+    <list id="n5_bmp5" name="gallery_button_list" xy="211,332" size="1504,578" layout="flow_hz" overflow="scroll" scroll="both" scrollBarFlags="128" scrollBarRes="ui://r4wy0bsrg0f855," lineGap="38" colGap="60" defaultItem="ui://r4wy0bsrbmp53o">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n3_bmp5" name="back_button" src="e28t2j" fileName="Buttons/universal_button/back_button.xml" xy="1800,0"/>
+  </displayList>
+</component>

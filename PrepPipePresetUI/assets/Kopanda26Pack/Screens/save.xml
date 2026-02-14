@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_ewvv" name="bg" src="uluf1" fileName="Images/background/universal_background.png" xy="0,0"/>
+    <image id="n3_cwkh" name="label_bg" src="ulufn" fileName="Images/background/label_bg.png" xy="0,66"/>
+    <image id="n2_cwkh" name="save_title" src="cwkh3d" fileName="Images/save_load_menu/save_title.png" xy="77,59"/>
+    <list id="n5_cwkh" name="save_slot_list" xy="357,216" size="1266,711" overflow="scroll" scrollBarRes="ui://r4wy0bsrg0f855," lineGap="25" defaultItem="ui://r4wy0bsrcwkh3g" autoItemSize="false">
+      <item/>
+      <item/>
+      <item/>
+      <item/>
+    </list>
+    <component id="n1_ewvv" name="back_button" src="e28t2j" fileName="Buttons/universal_button/back_button.xml" xy="1800,0"/>
+  </displayList>
+</component>

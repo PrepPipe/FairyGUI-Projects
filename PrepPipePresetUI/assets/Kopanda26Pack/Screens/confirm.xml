@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1920,1080">
+  <displayList>
+    <image id="n0_ndic" name="bg" src="ndicq" fileName="Images/background/confirm_background.png" xy="435,393"/>
+    <text id="n3_ndic" name="message" xy="496,427" size="975,86" font="ui://r4wy0bsrulufo" fontSize="40" align="center" vAlign="middle" autoSize="none" text="确认消息文本内容"/>
+    <component id="n1_ndic" name="yes_button" src="ndicv" fileName="Buttons/confirm_button/yes_button.xml" xy="680,562" customData="yes_action"/>
+    <component id="n2_ndic" name="no_button" src="ndicz" fileName="Buttons/confirm_button/no_button.xml" xy="1066,562" customData="no_action"/>
+  </displayList>
+</component>
